@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noémie PHILIPPE PASSOT | Portfolio BTS SIO SISR</title>
+  
+  <!-- Polices Google Fonts & Icônes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+  <!-- Liaison avec la feuille de style externe -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       BARRE DE NAVIGATION
+       ========================================================================== -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#accueil" class="nav-brand">AD<span>.sisr</span></a>
+      <ul class="nav-menu">
+        <li><a href="#accueil" class="nav-link">Accueil</a></li>
+        <li><a href="#profil" class="nav-link">Profil</a></li>
+        <li><a href="#formation" class="nav-link">Formation</a></li>
+        <li><a href="#competences" class="nav-link">Compétences</a></li>
+        <li><a href="#realisations" class="nav-link">Réalisations</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       ACCUEIL (HERO)
+       ========================================================================== -->
+  <section id="accueil" class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="hero-tag"><i class="fa-solid fa-server"></i> BTS SIO 1re Année</span>
+        <h1 class="hero-title">Noémie PHILIPPE PASSOT</h1>
+        <h2 class="hero-subtitle">Étudiante en informatique, systèmes et réseaux : 1re année BTS SIO option SISR</h2>
+        <p class="hero-desc">
+          Passionnée par les architectures systèmes, l'administration d'infrastructures réseaux, la virtualisation et la cybersécurité opérationnelle.
+        </p>
+        <div class="hero-actions">
+          <!-- Consultation / Téléchargement CV en PDF -->
+          <a href="CV-NoemiePHILIPPEPASSOT.pdf" target="_blank" class="btn btn-primary">
+            <i class="fa-solid fa-file-pdf"></i> Voir mon CV (PDF)
+          </a>
+          <a href="CV-NoemiePHILIPPEPASSOT.pdf" download="CV-NoemiePHILIPPEPASSOT.pdf" class="btn btn-outline">
+            <i class="fa-solid fa-download"></i> Télécharger le CV
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fa-regular fa-envelope"></i> Me contacter
+          </a>
+        </div>
+      </div>
+      <div class="hero-avatar-wrapper">
+        <div class="status-badge">
+          <span class="status-indicator"></span>
+          <span>À la recherche d'un stage SISR</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PROFIL
+       ========================================================================== -->
+  <section id="profil" class="section">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-user-gear"></i> Profil Professionnel</h2>
+      <p class="section-subtitle">Découvrez mon parcours, mes motivations et mes ambitions dans l'IT.</p>
+
+      <div class="profil-grid">
+        <div class="profil-text">
+          <p>
+            Actuellement en première année de <strong>BTS SIO (Services Informatiques aux Organisations)</strong> en option <strong>SISR</strong>, je me passionne pour la gestion des infrastructures et la défense des systèmes d'information. Mon premier objectif est de valider mon diplôme avec mention avec une excellente maîtrise des fondamentaux du réseau et des systèmes.
+          </p>
+          <p>
+            Rigoureuse, motivée et autodidacte, je souhaite poursuivre mon parcours académique vers une <strong>Licence 3 en Informatique</strong>, puis me spécialiser à travers un <strong>Master spécialisé en Cybersécurité</strong>.
+          </p>
+          <p>
+            À terme, mon ambition est de devenir <strong>Experte en Sécurité Informatique</strong>. Je vise à piloter des stratégies de cyberdéfense, réaliser des audits de vulnérabilité et intervenir activement dans la gestion des incidents majeurs, afin d'apporter une valeur stratégique et technique aux entreprises.
+          </p>
+        </div>
+
+        <!-- Encadré recherche de stage -->
+        <div class="stage-callout">
+          <span class="stage-badge"><i class="fa-solid fa-bell"></i> Opportunité recherchée</span>
+          <h3>Recherche de stage en entreprise</h3>
+          <p>
+            Dans le cadre de ma formation BTS SIO SISR, je suis activement à la recherche d'un stage pour mettre mes compétences en pratique au sein d'une équipe informatique.
+          </p>
+          <ul class="stage-details">
+            <li><i class="fa-solid fa-check"></i> <strong>Spécialité :</strong> SISR (Systèmes, Réseaux & Support)</li>
+            <li><i class="fa-solid fa-calendar-days"></i> <strong>Période :</strong> D'avril à août 2027</li>
+            <li><i class="fa-solid fa-clock"></i> <strong>Durée :</strong> 4 à 5 semaines consécutives</li>
+            <li><i class="fa-solid fa-location-dot"></i> <strong>Localisation :</strong> Lille / Villeneuve-d'Ascq</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       2C. PARCOURS DE FORMATION
+       ========================================================================== -->
+  <section id="formation" class="section">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Parcours de Formation</h2>
+      <p class="section-subtitle">Mon cursus académique post-bac.</p>
+
+      <div class="timeline">
+        <!-- BTS SIO -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026 - 2028 (En cours d'acquisition)</span>
+            <h3 class="timeline-title">BTS SIO (Services Informatiques aux Organisations) — Option SISR</h3>
+            <div class="timeline-location">
+              <i class="fa-solid fa-school"></i> CNED
+            </div>
+            <p>
+              Formation axée sur la conception, l'intégration, la sécurisation et la maintenance des infrastructures réseaux et serveurs d'entreprise.
+              <br/><strong>Spécificité SISR :</strong> Routage/commutation, virtualisation de serveurs (Windows/Linux), mise en œuvre de politiques de sécurité réseau, annuaires LDAP/Active Directory et gestion de parc informatique.
+            </p>
+          </div>
+        </div>
+
+        <!-- BACCALAURÉAT -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2025 (Obtenu)</span>
+            <h3 class="timeline-title">Baccalauréat Général (Spécialités NSI & Mathématiques)</h3>
+            <div class="timeline-location">
+              <i class="fa-solid fa-school"></i> CNED
+            </div>
+            <p>
+              Acquisition des bases de l'algorithmique, programmation Python, architecture matérielle, modèles client-serveur et protocoles de routage élémentaires.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       2D. COMPÉTENCES TECHNIQUES
+       ========================================================================== -->
+  <section id="competences" class="section">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-microchip"></i> Compétences Techniques</h2>
+      <p class="section-subtitle">Outils, technologies et compétences abordés dans le cadre du BTS SIO SISR.</p>
+
+      <div class="skills-grid">
+        <!-- Systèmes d'exploitation -->
+        <div class="skill-category">
+          <div class="category-title">
+            <i class="fa-solid fa-server"></i> Systèmes & OS
+          </div>
+          <div class="skills-list">
+            <div class="skill-pill">
+              <i class="devicon-windows8-original colored"></i>
+              <span>Windows Server (AD DS, DNS, DHCP, GPO)</span>
+            </div>
+            <div class="skill-pill">
+              <i class="devicon-debian-plain colored"></i>
+              <span>Debian / Ubuntu Server (CLI, SSH, Nginx)</span>
+            </div>
+            <div class="skill-pill">
+              <i class="devicon-apple-original"></i>
+              <span>Postes clients Windows 10/11 & Linux</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Réseaux & Télécoms -->
+        <div class="skill-category">
+          <div class="category-title">
+            <i class="fa-solid fa-network-wired"></i> Réseaux & Sécurité
+          </div>
+          <div class="skills-list">
+            <div class="skill-pill">
+              <i class="fa-brands fa-cisco colored"></i>
+              <span>Cisco IOS (Switching VLAN 802.1Q, Routage Inter-VLAN)</span>
+            </div>
+            <div class="skill-pill">
+              <i class="fa-solid fa-shield-cat"></i>
+              <span>Firewall pfSense (NAT, Règles de filtrage, DMZ)</span>
+            </div>
+            <div class="skill-pill">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>Analyse de trames (Wireshark, TCP/IP, ARP)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Virtualisation & Cloud -->
+        <div class="skill-category">
+          <div class="category-title">
+            <i class="fa-solid fa-cloud"></i> Virtualisation
+          </div>
+          <div class="skills-list">
+            <div class="skill-pill">
+              <i class="fa-solid fa-box"></i>
+              <span>Proxmox VE & VMware ESXi</span>
+            </div>
+            <div class="skill-pill">
+              <i class="devicon-docker-plain colored"></i>
+              <span>Docker & Conteneurisation de base</span>
+            </div>
+            <div class="skill-pill">
+              <i class="fa-solid fa-desktop"></i>
+              <span>VirtualBox & Hyper-V</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Outils & Scripting -->
+        <div class="skill-category">
+          <div class="category-title">
+            <i class="fa-solid fa-terminal"></i> Scripting & Gestion
+          </div>
+          <div class="skills-list">
+            <div class="skill-pill">
+              <i class="fa-solid fa-terminal colored"></i>
+              <span>Bash Shell & PowerShell</span>
+            </div>
+            <div class="skill-pill">
+              <i class="fa-solid fa-ticket"></i>
+              <span>GLPI & Gestion d'incidents / Inventaire</span>
+            </div>
+            <div class="skill-pill">
+              <i class="devicon-git-plain colored"></i>
+              <span>Git & GitHub (Versionnement)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       2E. RÉALISATIONS PROFESSIONNELLES (BLOC 1 & E5)
+       ========================================================================== -->
+  <section id="realisations" class="section">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-folder-open"></i> Réalisations Professionnelles</h2>
+      <p class="section-subtitle">
+        Les projets professionnels et travaux en laboratoire seront ajoutés prochainement.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       2F. ZONE DE CONTACT
+       ========================================================================== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-paper-plane"></i> Contact & Localisation</h2>
+      <p class="section-subtitle">Une opportunité de stage ? N'hésitez pas à me joindre directement.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info-list">
+          <!-- Ville -->
+          <div class="contact-card-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <div class="contact-detail-title">Localisation</div>
+              <div class="contact-detail-value">Villeneuve d'Ascq (59650), France</div>
+            </div>
+          </div>
+
+          <!-- Téléphone mobile -->
+          <div class="contact-card-item">
+            <div class="contact-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+            <div>
+              <div class="contact-detail-title">Téléphone Mobile</div>
+              <div class="contact-detail-value">
+                <a href="tel:+33668418833">+33 6 68 41 88 33</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Email pro -->
+          <div class="contact-card-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <div class="contact-detail-title">Email Professionnel</div>
+              <div class="contact-detail-value">
+                <a href="mailto:noemie@philippepassot.fr">noemie@philippepassot.fr</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Liens explicites LinkedIn et GitHub -->
+          <div class="contact-card-item">
+            <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div>
+              <div class="contact-detail-title">Réseau LinkedIn</div>
+              <div class="contact-detail-value">
+                <a href="https://www.linkedin.com/in/no%C3%A9mie-philippe-passot" target="_blank" rel="noopener noreferrer">
+                  linkedin.com/in/noémie-philippe-passot <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8rem;"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card-item">
+            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+            <div>
+              <div class="contact-detail-title">Dépôt GitHub</div>
+              <div class="contact-detail-value">
+                <a href="https://github.com/noemiephilippepassot" target="_blank" rel="noopener noreferrer">
+                  github.com/noemiephilippepassot <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8rem;"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Formulaire de contact -->
+        <form class="contact-form" id="contact-form" onsubmit="handleFormSubmit(event)">
+          <h3 style="margin-bottom: 1.5rem; font-size: 1.3rem;">Envoyez-moi un message</h3>
+          
+          <div class="form-group">
+            <label class="form-label" for="nom">Nom & Prénom</label>
+            <input type="text" id="nom" name="nom" class="form-control" placeholder="Jean Dupont" required />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Adresse E-mail</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="nom.prenom@entreprise.com" required />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="sujet">Objet du message</label>
+            <input type="text" id="sujet" name="sujet" class="form-control" placeholder="Proposition de stage SISR (Avril-Août 2027)" required />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea id="message" name="message" class="form-control" placeholder="Bonjour, nous recherchons actuellement..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+            <i class="fa-solid fa-paper-plane"></i> Transmettre le message
+          </button>
+          
+          <div id="form-feedback" style="margin-top: 1rem; display: none; font-size: 0.9rem; text-align: center;"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026-2027 — Noémie PHILIPPE PASSOT — Portfolio BTS SIO SISR. Tous droits réservés.</p>
+      <p style="margin-top: 0.3rem; font-size: 0.8rem; color: #6b7280;">
+        Conforme aux exigences de présentation du Bloc 1 & Épreuve E5.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       LOGIQUE JAVASCRIPT
+       ========================================================================== -->
+  <script>
+    const projectDetails = {
+      'ad-project': {
+        cadre: "Atelier de Professionnalisation (AP 1) — BTS SIO SISR",
+        titre: "Déploiement d'un domaine Active Directory sécurisé",
+        date: "Novembre 2026",
+        description: `
+          <p>Mise en place d'un domaine d'entreprise <strong>CORP.LOCAL</strong> sous Windows Server 2022 dans un environnement virtualisé sous Proxmox.</p>
+          <br/>
+          <p>Le projet a nécessité la structuration d'une arborescence d'Unités d'Organisation (UO) par service (Direction, RH, IT, Production), la mise en place d'une délégation de droits, et le déploiement de stratégies de groupe (GPO) pour sécuriser les postes clients (verrouillage USB, politique de mot de passe stricte, montage automatique de lecteurs réseau partagés).</p>
+        `,
+        schema: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80",
+        competences: [
+          "B1.1 - Gérer le patrimoine informatique (Recensement et intégration des postes dans le domaine)",
+          "B1.2 - Répondre aux incidents et aux demandes d'assistance (Gestion des comptes utilisateurs et droits d'accès)",
+          "B1.5 - Mettre à disposition des utilisateurs un service informatique (Partage de fichiers sécurisé SMB et GPO)"
+        ],
+        github: "https://github.com/noemiephilippepassot/windows-server-ad",
+        docPdf: "fichiers/doc-technique-active-directory.pdf"
+      },
+      'pfsense-project': {
+        cadre: "Projet Réseau de Laboratoire — BTS SIO SISR",
+        titre: "Segmentation réseau VLAN et pare-feu pfSense",
+        date: "Janvier 2027",
+        description: `
+          <p>Conception d'une maquette réseau isolant les flux informatiques au moyen de VLANs 802.1Q configurés sur des commutateurs Cisco Catalyst 2960 et routés par un firewall open-source pfSense.</p>
+          <br/>
+          <p>Mise en place d'une DMZ hébergeant un serveur Web de test, avec translation d'adresse (NAT/Port Forwarding) et règles de pare-feu empêchant les flux de la DMZ vers le réseau interne sécurisé (LAN).</p>
+        `,
+        schema: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=80",
+        competences: [
+          "B1.1 - Gérer le patrimoine informatique (Configuration des commutateurs et passerelles)",
+          "B1.5 - Mettre à disposition des utilisateurs un service informatique (Segmentation des services et DMZ)",
+          "B1.6 - Travailler en mode projet (Plan d'adressage IP et recette réseau)"
+        ],
+        github: "https://github.com/noemiephilippepassot/pfsense-vlan-lab",
+        docPdf: "fichiers/doc-technique-pfsense-vlans.pdf"
+      },
+      'glpi-project': {
+        cadre: "Projet Personnel & Homelab",
+        titre: "Mise en place d'un outil ITSM GLPI avec agent Fusion",
+        date: "Février 2027",
+        description: `
+          <p>Installation d'une instance GLPI 10 conteneurisée via Docker Compose sous Debian GNU/Linux avec base de données MariaDB dédiée.</p>
+          <br/>
+          <p>Automatisation de la remontée d'inventaire matériel et logiciel via l'agent GLPI déployé sur machines Windows et Linux, configuration du collecteur de courriels pour générer automatiquement des tickets de support, et mise en place de SLAs.</p>
+        `,
+        schema: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
+        competences: [
+          "B1.1 - Gérer le patrimoine informatique (Inventaire automatisé et suivi du parc)",
+          "B1.2 - Répondre aux incidents et aux demandes d'assistance (Workflow de tickets d'assistance)",
+          "B1.4 - Travailler en mode projet (Déploiement et documentation de la solution)"
+        ],
+        github: "https://github.com/noemiephilippepassot/docker-glpi-stack",
+        docPdf: "fichiers/doc-technique-glpi-itsm.pdf"
+      }
+    };
+
+    function openProjectModal(projectId) {
+      const data = projectDetails[projectId];
+      if (!data) return;
+
+      const content = `
+        <div class="modal-header">
+          <div class="modal-cadre">${data.cadre} &bull; ${data.date}</div>
+          <h2 class="modal-title">${data.titre}</h2>
+        </div>
+        <div>${data.description}</div>
+        <h4 style="margin-top: 1.5rem; font-size: 1rem; color: var(--primary-light);">
+          <i class="fa-solid fa-network-wired"></i> Schéma d'architecture & Preuves de réalisation
+        </h4>
+        <img src="${data.schema}" alt="Schéma d'architecture" class="modal-schema" />
+        <div class="bloc-competences">
+          <h4><i class="fa-solid fa-certificate"></i> Compétences couvertes (Bloc 1 du BTS SIO) :</h4>
+          <ul>
+            ${data.competences.map(c => `<li>${c}</li>`).join('')}
+          </ul>
+        </div>
+        <div class="modal-actions">
+          <a href="${data.docPdf}" target="_blank" class="btn btn-primary">
+            <i class="fa-solid fa-file-pdf"></i> Documentation technique (PDF)
+          </a>
+          <a href="${data.github}" target="_blank" class="btn btn-outline">
+            <i class="fa-brands fa-github"></i> Dépôt GitHub
+          </a>
+        </div>
+      `;
+
+      document.getElementById('modal-content-target').innerHTML = content;
+      document.getElementById('project-modal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeProjectModal() {
+      document.getElementById('project-modal').classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+
+    window.onclick = function(event) {
+      const modal = document.getElementById('project-modal');
+      if (event.target === modal) {
+        closeProjectModal();
+      }
+    };
+
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-filter');
+
+        projectCards.forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    function handleFormSubmit(event) {
+      event.preventDefault();
+      const feedback = document.getElementById('form-feedback');
+      const submitBtn = event.target.querySelector('button[type="submit"]');
+
+      submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Envoi en cours...';
+      submitBtn.disabled = true;
+
+      setTimeout(() => {
+        feedback.style.display = 'block';
+        feedback.style.color = '#10b981';
+        feedback.innerHTML = '<i class="fa-solid fa-circle-check"></i> Merci ! Votre message a bien été transmis. Je vous répondrai sous 24h.';
+        event.target.reset();
+        submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Transmettre le message';
+        submitBtn.disabled = false;
+      }, 1200);
+    }
+  </script>
+</body>
+</html>
