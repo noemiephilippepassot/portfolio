@@ -333,7 +333,7 @@ footer {
 }
 
 /* ==========================================================================
-   PROFIL & ENCADRÉ RECHERCHE DE STAGE
+  PROFIL & ENCADRE RECHERCHE DE STAGE
    ========================================================================== */
 .profil-grid {
   display: grid;
@@ -501,7 +501,7 @@ footer {
 }
 
 /* ==========================================================================
-   2D. COMPÉTENCES TECHNIQUES
+  2D. COMPETENCES TECHNIQUES
    ========================================================================== */
 .skills-grid {
   display: grid;
@@ -551,7 +551,7 @@ footer {
 }
 
 /* ==========================================================================
-   2E. RÉALISATIONS PROFESSIONNELLES (PORTFOLIO BTS)
+  2E. REALISATIONS PROFESSIONNELLES (PORTFOLIO BTS)
    ========================================================================== */
 .projects-filter {
   display: flex;
@@ -685,7 +685,7 @@ footer {
 }
 
 /* ==========================================================================
-   MODAL DE DÉTAIL PROJET (ÉPREUVE E5 / BLOC 1)
+  MODAL DE DETAIL PROJET (EPREUVE E5 / BLOC 1)
    ========================================================================== */
 .modal-overlay {
   position: fixed;
